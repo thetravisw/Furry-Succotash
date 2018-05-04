@@ -13,7 +13,7 @@ function sum(a, b)
         var sumTotal = a + b;
         var sumTotalString = 'The sum of ' + a + ' and ' + b  + ' is ' + sumTotal + "."
         var sumOutput = [sumTotal, sumTotalString];
-        console.log (sumTotal, sumTotalString, sumOutput)
+        //console.log (sumTotal, sumTotalString, sumOutput)
         return sumOutput;
     }
 
@@ -34,11 +34,14 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+var multiplyTotal = a*b;
+var multiplyString = "The product of "+a+ ' and ' +b+ ' is ' +multiplyTotal+'.';
+var multiplyOutput = [multiplyTotal, multiplyString];
+return multiplyOutput;
 }
 
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+testMultiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
