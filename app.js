@@ -8,11 +8,14 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
-function sum(a, b) { //eslint-disable-line
-    var sumTotal = a + b;
-    var sumOutput = [sumTotal, 'The sum of ' + a + 'and ' + b  + ' is ' + sumTotal + "."];
-    return [sumOutput];
-}
+function sum(a, b) 
+    { //eslint-disable-line
+        var sumTotal = a + b;
+        var sumTotalString = 'The sum of ' + a + ' and ' + b  + ' is ' + sumTotal + "."
+        var sumOutput = [sumTotal, sumTotalString];
+        console.log (sumTotal, sumTotalString, sumOutput)
+        return sumOutput;
+    }
 
 
 
