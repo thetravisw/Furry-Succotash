@@ -32,6 +32,8 @@ function testSumArray() { //eslint-disable-line
   }
 }
 
+
+
 function testMultiplyArray() { //eslint-disable-line
   if (multiplyArray(testArray)[0] === 24 && multiplyArray(testArray)[1] === 'The numbers 2,3,4 have a product of 24.') {
     console.log('%c TEST FOR multiplyArray() PASSES', 'color: green');
